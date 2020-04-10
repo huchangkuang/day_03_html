@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML重难点笔记</title>
+</head>
+
+<body>
+    <!-- a标签href属性 -->
+    <a href="//google.com" target="_blank">google</a><br>
+    <a href="/a\b\c.html">跳转指定路径页面</a><br>
+    <a href="#111">跳转内部锚点</a>
+    <div id="111">111</div>
+    <!-- 伪协议 -->
+    <a href="javascript:;">点击</a><br>
+    <!-- 发邮件 -->
+    <a href="mailto:603021137@qq.com">60301137@qq.com</a>
+    <!-- 拨号 -->
+    <a href="tel:10086">10086</a>
+
+    <!-- 二维数据表写法 -->
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>小明</th>
+                <th>小红</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>数学</th>
+                <td>80</td>
+                <td>60</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <th>语文</th>
+                <td>70</td>
+                <td>80</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>总分</th>
+                <td>150</td>
+                <td>140</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- <input type="submit">与<button type="submit"></button>区别：
+        input里不能再加标签，button可以
+     -->
+
+    <!-- 选择标签 -->
+    <select>
+        <option value="">--请选择--</option>
+        <option value="1">星期一</option>
+        <option value="2">星期二</option>
+        <option value="3">星期三</option>
+    </select>
+    <!-- 表单标签 -->
+    <form action="xxx">
+        <input type="text">
+        <input type="submit">
+    </form>
+</body>
+
+</html>
